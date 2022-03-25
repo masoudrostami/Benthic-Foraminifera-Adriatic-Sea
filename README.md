@@ -14,6 +14,8 @@ The Adriatic Sea, located between the Italian Peninsula and the Balkan Region, i
 
 Our study area is located in the central part of the western Adriatic Sea, adjacent to the southern part of the Marche Region, from 7 to 46 m of depth. The main watersheds in the area include the Chienti, Tenna, Aso and Tronto rivers (Fig. 1). Geologic formations, where these rivers drain, mostly range from Miocene to Holocene sediments within limestone, clay and conglomerate (Spagnoli et al., 2021). Present bottom sediment in the northern and central Adriatic Sea are the result of the integration of the solids inputs coming from the Po and Apennine rivers and the general cyclonic Adriatic Sea circulation. This distributes the sediments in a belt parallel to the coastline ranging from sand, inshore, to clay, offshore, while in the center of the basin the relict sediments due to the last transgression outcrop. Due to strong autumn and winter storms, the coastal area is affected by intensive bottom sediment resuspension. Main pollution sources in the study area derive from the Po River fine sediments coming from the northern and by the inputs of the local rivers that drains high industrialized and populated areas (Droghini et al., 2019).
 
+![Fig1](https://user-images.githubusercontent.com/40363872/160214609-70c1ecfe-c57a-4591-9508-ec1e23f7bdc8.JPG)
+
 
 ## 3. Material and methods
 
