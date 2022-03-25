@@ -15,7 +15,7 @@ The Adriatic Sea, located between the Italian Peninsula and the Balkan Region, i
 Our study area is located in the central part of the western Adriatic Sea, adjacent to the southern part of the Marche Region, from 7 to 46 m of depth. The main watersheds in the area include the Chienti, Tenna, Aso and Tronto rivers (Fig. 1). Geologic formations, where these rivers drain, mostly range from Miocene to Holocene sediments within limestone, clay and conglomerate (Spagnoli et al., 2021). Present bottom sediment in the northern and central Adriatic Sea are the result of the integration of the solids inputs coming from the Po and Apennine rivers and the general cyclonic Adriatic Sea circulation. This distributes the sediments in a belt parallel to the coastline ranging from sand, inshore, to clay, offshore, while in the center of the basin the relict sediments due to the last transgression outcrop. Due to strong autumn and winter storms, the coastal area is affected by intensive bottom sediment resuspension. Main pollution sources in the study area derive from the Po River fine sediments coming from the northern and by the inputs of the local rivers that drains high industrialized and populated areas (Droghini et al., 2019).
 
 ![Fig1](https://user-images.githubusercontent.com/40363872/160214609-70c1ecfe-c57a-4591-9508-ec1e23f7bdc8.JPG)
-
+                     Fig. 1. Sampling stations in the Adriatic Sea at which sediment samples were collected.
 
 ## 3. Material and methods
 
@@ -36,6 +36,41 @@ The Rf modeling is an ensemble machine learning approach that is formed by build
 ### 3.3.2. Gradient forest
 
 Gf, which is a multivariate extension of Rf (Ellis et al., 2012) with multiple predictor and response variables, was used to explore the non-linear response of the benthic foraminiferal community to environmental gradients and to identify which environmental variables have the highest effect on the distribution of these organisms. In this method, for each species the specific importance of each environmental variable was calculated to provide an appropriate ranking value among the selected variables. The overall performance of Gf is evaluated by using the proportion of out of bag data error (a method to evaluate the prediction error of Gf and weighting that variance over all benthic foraminiferal species). The outcomes are presented emphasizing the overall conditional importance of the environmental variables in cumulative importance curves. For analyzing the data by Gf the R software (3.6.4 version) and two packages of “extended-Forest” and “gradient Forest” (Ellis et al., 2012) were used. From this analysis, 2000 trees were created to identify and rank the important predictor variables.
+
+
+## 4. Result:
+
+![image](https://user-images.githubusercontent.com/40363872/160214781-4a1876bf-4b9e-4236-8387-26fb4ac55e8e.png)
+
+                          
+
+![Fig2](https://user-images.githubusercontent.com/40363872/160214637-a06392b6-608a-4251-a463-ffc46d20a40b.JPG)
+
+                 Fig. 2. Overall performance of gradient forest analysis for different benthic foraminiferal species.
+
+
+![Fig3](https://user-images.githubusercontent.com/40363872/160214682-d6c5b47f-7cad-47db-9c6e-fee4f54d45fc.JPG)
+
+Fig. 3. (A) Left figures: Cumulative change in abundance of individual species along environmental gradients. For each species, the cumulative importance distributions are scaled by R2 weighted importance. Each line indicates a separate species. (B) Right figures: Cumulative importance curves indicating the overall shape of compositional change for all benthic foraminiferal species.
+
+
+![Fig4](https://user-images.githubusercontent.com/40363872/160214691-e797a725-70fc-4547-948a-a20f4eb46ce5.JPG)
+
+Fig. 4. (A) Variable importance ranking from a random forest modeling approach to predict Exp (H'bc) index distribution in the Adriatic Sea. (B) Partial plots for the top two predictor variables from variable importance for the Exp (H'bc) index.
+
+
+![Fig5](https://user-images.githubusercontent.com/40363872/160214707-ba66bc19-bde0-4e28-8a36-c513b5ca1107.JPG)
+
+Fig. 5. (A) Variable importance ranking from a random forest modeling approach to predict FSI distribution in the Adriatic Sea. (B) Partial plots for the top two predictor variables from variable importance for the FSI index.
+
+
+![Fig6](https://user-images.githubusercontent.com/40363872/160214715-52cf0cf9-f0a8-4bba-9291-b6d77c4e4f85.JPG)
+
+Fig. 6. (A) Variable importance ranking from a random forest modeling approach to predict the TSI index distribution in the Adriatic Sea. (B) Partial plots for the top two predictor variables from variable importance for the TSI index.
+
+![image](https://user-images.githubusercontent.com/40363872/160215027-5423fbef-7728-4b17-ae5d-f1def470dbc7.png)
+
+Fig. 7. (A) Variable importance ranking from a random forest modeling approach to predict Foram-AMBI distribution in the Adriatic Sea. (B) Partial plots for the top two predictor variables from variable importance for the Foram-AMBI index.
 
 
 ## 4. Discussion:
